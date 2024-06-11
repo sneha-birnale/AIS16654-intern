@@ -80,10 +80,24 @@ To plot the graph of distribution
 #import seaborn as sns
 Then we use ufuncs stands for "Universal Functions" and they are NumPy functions that operate on the ndarray object.
 We studied ufunctions like simple arithmatic , rounding decimals, logs, summations, products, differences, finding lcm,gcd, trignometric functions, hyperbolic function and set operations.
- 
- 
- 
- 
+
+Task 5 -
+In task 5 we studied the pandas library in python.
+#we see creation of series and their operation .A Pandas Series is like a column in a table. It is a one-dimensional array holding data of any type.
+#Then we see the data frame creation using dictionary and matrix ,and how to to read data in csv and xlsx file in panda library in python. 
+#Data frame operation -
+In data frame operation different methods of operation like value count , apply, unique, nunique,describe,merge,sort etc
+#selection-
+In selection we see that how to select data frame column and row by using (loc,iloc) function . 
+#In pandas, selecting data from a DataFrame involves specifying which columns and/or rows you want to work with. 
+#we can use several methods for selection, including .loc, .iloc, and boolean indexing. 
+ Also conditional selection with how to add , delete and update column in the data frame .Also seen that indexing and removing indexing by set reset function.
+ Operation between two columns like addition , substraction, multiplication and division are carried out .
+#missing values
+In missing values we studied checking missing values, how to drop missing values by row and by column and also filling missing values by mean ,median etc.By using function
+#Using isnull(): This method returns a DataFrame of the same shape with boolean values indicating whether the data is missing (True) or not (False).
+#we can drop rows that contain any missing values using dropna(axis=0):
+#we can fill missing values with a specific value using fillna(value):
  
  
  
