@@ -100,7 +100,7 @@ In missing values we studied checking missing values, how to drop missing values
 #we can fill missing values with a specific value using fillna(value):
  
  Task 6 - 
- In task 6 we studied that matplotlib and seaborn library.
+ In task 6 we studied the matplotlib and seaborn library.
  Matplotlib is a graph plotting library in python that serves as a visualization utility.
  #Pyplot
 Most of the Matplotlib utilities lies under the pyplot submodule, and are usually imported under the plt alias:
