@@ -99,9 +99,22 @@ In missing values we studied checking missing values, how to drop missing values
 #we can drop rows that contain any missing values using dropna(axis=0):
 #we can fill missing values with a specific value using fillna(value):
  
- 
- 
- 
+ Task 6 - 
+ In task 6 we studied that matplotlib and seaborn library.
+ Matplotlib is a graph plotting library in python that serves as a visualization utility.
+ #Pyplot
+Most of the Matplotlib utilities lies under the pyplot submodule, and are usually imported under the plt alias:
+#import matplotlib.pyplot as plt
+#Plotting x and y points
+The plot() function is used to draw points (markers) in a diagram.
+In matplotlib we study matplotlib plotting with markers,lines,labels,grid,subplot,scatter plot,bars, histograms and pie charts .
+#seaborn libraray-
+Seaborn is a powerful and versatile data visualization library in Python, built on top of the popular Matplotlib library. 
+It provides a high-level interface for drawing attractive and informative statistical graphics. 
+Seaborn is particularly useful for visualizing complex datasets and for creating aesthetically pleasing visualizations with minimal code.
+#import seaborn as sns
+#In seaborn library we see different types of plotting of graphs such as distribution plot, box plot, violin plot, bar plot,scatter pot, 
+line plot, heatmap, pair plot ,facet grid, regression plot , residual plot. 
  
 
 
