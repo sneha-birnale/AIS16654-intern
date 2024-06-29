@@ -135,12 +135,24 @@ decision tree is the best model on the basis of prcision , accuracy and recall, 
 In this task we created a dashoard on project data i.e Bike sharing demand data in power bi dashboard.We download the Bike sharing demand data from kaggle. In power bi we get the data from csv file then by using graphs ,sclicers,card and other features we create a dashoard in power bi.
 
 #Project-
+1)Objectives -
+#To identify and evaluate the seasonal fluctuations in the demand for rental bike.
+#Investigate the variations in bike rental demand across different hours per day and days of the month and to identify the peak demand periods.
+#To identify which features in dataset have the most significant impact on target outcome
+#To determine which model is best suited for bike sharing demand dataset.
+2)EDA and model building-
 In the bike sharing demand data prediction project we download the data from kaggle and import it to jupyter notebook then perform EDA on the data.
+To identify and evaluate the seasonal fluctuations in the demand for rental bike.
 Then we cleaned data by handling missing values and outliers to build the various models like - linear regression,ridge regression,elastic net, random forest, decision tree,KNN,SVR9Support vector regressor),PCR(principal component regbressor),PLSR(partial least square regressor),Gradient Boosting and find the root mean square error and R square for all the 10 models.
 Then we perform grid search cv on 10 models to find the best parameter once we find the Best parameters then again we build the 10 models with that best parameter, and find the RMSE and R square values after the grid search cv .
 Also we find feature importance from decision tree model and find the best parameter i.e Hour , tempreture,solar radiation,humidity,seasons and holiday and fit the all 10 models with these 6 variables.and find the RMSE and R square of all models.
 Then plot the bar graphs and joint bar plots of rmse values and r square values. Also compare the rmse and R square values of before and after grid search cv .
-
+3)Conclusion-
+1. Seasonal Trends: Bike-sharing demand typically varies with the season, with higher usage in warmer months and lower usage in colder months.
+2. Weather Impact: Weather conditions such as temperature, humidity significantly influence bike-sharing demand. Favorable weather conditions usually correlate with increased bike usage.
+3. Impact of Holidays: Holidays tend to disrupt regular usage patterns, often resulting in lower demand.
+4.Based on rmse and r square ,the best performing models are random forest and gradient boosting.
+5. By feature importance the variables like hour, tempreture, humidity, solar radiation, Functioning day and seasons are important impact on bike sharing demand.
 
 
 
